@@ -2,11 +2,14 @@
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
-
+/*
+Author: Komine Rimon
+Student @HAW_Hamburg
+*/
 //Declare prototypes before main for it to be seen by main()
-
 void printboard(char* arr);
 int checkwin(char* arr);
+
 int main() {
 	printf("Tic Tac Toe Game: \nPlayer 1: X, Player 2: O\n\n");
 	char board[] = { '0', '1', '2', '3', '4' , '5' , '6', '7', '8', '9' };
